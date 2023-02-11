@@ -1,0 +1,22 @@
+body{
+    background-color: blueviolet;
+}
+
+.containers{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+
+.card{
+    width: 90%;
+    padding: 10px 7px;
+    margin: 17px 9px;
+    transition: 1.5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+   
+}

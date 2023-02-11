@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.containers{
+    margin-top: 10%;
+    text-align: center;
+}
+.card{
+    width: 20%;
+    margin: 0px 20px;
+    display: inline-block;
+    border: 2px solid #d4d4d4;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px, -2px -2px 8px #636262;
+    transition: all .3s;
+}
+.card:hover{
+    transform: scale(1.2);
+}
+.card img{
+    width: 100%;
+}
+
+h1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 5px;
+}
+
+h2{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 5px;
+}
+
+p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 5px;  
+}

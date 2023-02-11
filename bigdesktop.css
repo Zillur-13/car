@@ -1,0 +1,22 @@
+body{
+    background-color: #ddd;
+}
+
+.containers{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.card{
+    width: 88%;
+    height: auto;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    transition: 1s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    background-color: rgb(107, 104, 104);
+}
